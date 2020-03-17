@@ -1,0 +1,8 @@
+pageObjects\OverViewPage.class
+pom_resources\Base.class
+pageObjects\FinishPage.class
+pageObjects\LoginPage.class
+pageObjects\ShopingCarPage.class
+pageObjects\InformatioPage.class
+pom_resources\DataProviderClass.class
+pageObjects\ProductsPage.class

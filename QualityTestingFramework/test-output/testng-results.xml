@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="118624" started-at="2020-03-17T08:56:16Z" finished-at="2020-03-17T08:58:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="118624" started-at="2020-03-17T08:56:16Z" finished-at="2020-03-17T08:58:15Z">
+      <class name="testCases.ValidateNavigateYourInformation">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.ValidateNavigateYourInformation@11531931]" name="initialize" is-config="true" duration-ms="9584" started-at="2020-03-17T02:57:28Z" finished-at="2020-03-17T02:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyErrorMessage(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateNavigateYourInformation@11531931]" name="verifyErrorMessage" duration-ms="1780" started-at="2020-03-17T02:57:38Z" data-provider="authenticationData" finished-at="2020-03-17T02:57:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessage -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testCases.ValidateNavigateYourInformation@11531931]" name="close" is-config="true" duration-ms="0" started-at="2020-03-17T02:57:40Z" finished-at="2020-03-17T02:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.ValidateNavigateYourInformation@11531931]" name="initialize" is-config="true" duration-ms="9593" started-at="2020-03-17T02:57:40Z" finished-at="2020-03-17T02:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyOverViewPage(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateNavigateYourInformation@11531931]" name="verifyOverViewPage" duration-ms="2301" started-at="2020-03-17T02:57:49Z" data-provider="authenticationData" finished-at="2020-03-17T02:57:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewPage -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testCases.ValidateNavigateYourInformation@11531931]" name="close" is-config="true" duration-ms="1" started-at="2020-03-17T02:57:52Z" finished-at="2020-03-17T02:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.ValidateNavigateYourInformation -->
+      <class name="testCases.ValidateNavigateOverView">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.ValidateNavigateOverView@45c8e616]" name="initialize" is-config="true" duration-ms="9568" started-at="2020-03-17T02:57:52Z" finished-at="2020-03-17T02:58:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyFinishPage(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateNavigateOverView@45c8e616]" name="verifyFinishPage" duration-ms="1935" started-at="2020-03-17T02:58:01Z" data-provider="authenticationData" finished-at="2020-03-17T02:58:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFinishPage -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testCases.ValidateNavigateOverView@45c8e616]" name="close" is-config="true" duration-ms="53" started-at="2020-03-17T02:58:03Z" finished-at="2020-03-17T02:58:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.ValidateNavigateOverView@45c8e616]" name="initialize" is-config="true" duration-ms="9591" started-at="2020-03-17T02:58:03Z" finished-at="2020-03-17T02:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifyOverViewPage(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateNavigateOverView@45c8e616]" name="verifyOverViewPage" duration-ms="1817" started-at="2020-03-17T02:58:13Z" data-provider="authenticationData" finished-at="2020-03-17T02:58:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewPage -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testCases.ValidateNavigateOverView@45c8e616]" name="close" is-config="true" duration-ms="44" started-at="2020-03-17T02:58:15Z" finished-at="2020-03-17T02:58:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.ValidateNavigateOverView -->
+      <class name="testCases.ValidateNavigateShopingCar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.ValidateNavigateShopingCar@1fbc7afb]" name="initialize" is-config="true" duration-ms="9587" started-at="2020-03-17T02:56:50Z" finished-at="2020-03-17T02:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="navigatetoShopCarPage(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateNavigateShopingCar@1fbc7afb]" name="navigatetoShopCarPage" duration-ms="1872" started-at="2020-03-17T02:56:59Z" data-provider="authenticationData" finished-at="2020-03-17T02:57:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetoShopCarPage -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testCases.ValidateNavigateShopingCar@1fbc7afb]" name="close" is-config="true" duration-ms="51" started-at="2020-03-17T02:57:01Z" finished-at="2020-03-17T02:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.ValidateNavigateShopingCar@1fbc7afb]" name="initialize" is-config="true" duration-ms="9610" started-at="2020-03-17T02:57:01Z" finished-at="2020-03-17T02:57:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="selectMutipleProducts(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateNavigateShopingCar@1fbc7afb]" name="selectMutipleProducts" duration-ms="6312" started-at="2020-03-17T02:57:11Z" data-provider="authenticationData" finished-at="2020-03-17T02:57:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMutipleProducts -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testCases.ValidateNavigateShopingCar@1fbc7afb]" name="close" is-config="true" duration-ms="50" started-at="2020-03-17T02:57:17Z" finished-at="2020-03-17T02:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.ValidateNavigateShopingCar@1fbc7afb]" name="initialize" is-config="true" duration-ms="9583" started-at="2020-03-17T02:57:17Z" finished-at="2020-03-17T02:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="selectOneProduct(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateNavigateShopingCar@1fbc7afb]" name="selectOneProduct" duration-ms="1433" started-at="2020-03-17T02:57:27Z" data-provider="authenticationData" finished-at="2020-03-17T02:57:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectOneProduct -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testCases.ValidateNavigateShopingCar@1fbc7afb]" name="close" is-config="true" duration-ms="48" started-at="2020-03-17T02:57:28Z" finished-at="2020-03-17T02:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.ValidateNavigateShopingCar -->
+      <class name="testCases.ValidateNavigateProductsFlow">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.ValidateNavigateProductsFlow@28f67ac7]" name="initialize" is-config="true" duration-ms="10610" started-at="2020-03-17T02:56:16Z" finished-at="2020-03-17T02:56:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginPrdPg(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateNavigateProductsFlow@28f67ac7]" name="loginPrdPg" duration-ms="1887" started-at="2020-03-17T02:56:27Z" data-provider="authenticationData" finished-at="2020-03-17T02:56:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPrdPg -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testCases.ValidateNavigateProductsFlow@28f67ac7]" name="close" is-config="true" duration-ms="63" started-at="2020-03-17T02:56:29Z" finished-at="2020-03-17T02:56:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.ValidateNavigateProductsFlow@28f67ac7]" name="initialize" is-config="true" duration-ms="9592" started-at="2020-03-17T02:56:29Z" finished-at="2020-03-17T02:56:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginWrongUser(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateNavigateProductsFlow@28f67ac7]" name="loginWrongUser" duration-ms="230" started-at="2020-03-17T02:56:38Z" data-provider="wrongData" finished-at="2020-03-17T02:56:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrong_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWrongUser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testCases.ValidateNavigateProductsFlow@28f67ac7]" name="close" is-config="true" duration-ms="54" started-at="2020-03-17T02:56:38Z" finished-at="2020-03-17T02:56:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.ValidateNavigateProductsFlow@28f67ac7]" name="initialize" is-config="true" duration-ms="9677" started-at="2020-03-17T02:56:39Z" finished-at="2020-03-17T02:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="logoutPrdPg(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateNavigateProductsFlow@28f67ac7]" name="logoutPrdPg" duration-ms="1629" started-at="2020-03-17T02:56:48Z" data-provider="authenticationData" finished-at="2020-03-17T02:56:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutPrdPg -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testCases.ValidateNavigateProductsFlow@28f67ac7]" name="close" is-config="true" duration-ms="50" started-at="2020-03-17T02:56:50Z" finished-at="2020-03-17T02:56:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.ValidateNavigateProductsFlow -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
